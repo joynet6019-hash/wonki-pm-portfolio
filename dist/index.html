@@ -2,76 +2,164 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="16년간 IT 웹 기획자이자 서비스 플래너·PM으로 일해온 차원기의 포트폴리오입니다." />
-    <meta name="theme-color" content="#0b0f19" />
-    <title>Portfolio — Cha Won Ki / PPTX Content Version</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%235b8cff'/%3E%3Cpath d='M19 20h26v8H28v7h14v8H28v9h-9V20Z' fill='white'/%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="차원기 서비스기획자·PM의 교육 플랫폼, HRD/LMS 서비스 구축 포트폴리오" />
+    <meta name="theme-color" content="#112b4e" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23112b4e'/%3E%3Cpath d='M18 18h10v28H18zm18 0h10v28H36z' fill='%23fff'/%3E%3Ccircle cx='32' cy='14' r='3' fill='%23ef4b47'/%3E%3C/svg%3E" />
+    <title>차원기 | 서비스기획자 · PM 포트폴리오</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="dashboard-page">
-    <div class="ambient ambient-one" aria-hidden="true"></div>
-    <div class="ambient ambient-two" aria-hidden="true"></div>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
 
-    <header class="site-header shell">
-      <a class="brand" href="index.html" aria-label="포트폴리오 대시보드 홈">
-        <span class="brand-mark">CK</span>
-        <span class="brand-copy">
-          <strong>CHA WON KI</strong>
-          <span>PORTFOLIO / PPTX CONTENT VERSION</span>
-        </span>
-      </a>
-      <div class="header-status"><span class="status-dot"></span> AVAILABLE FOR COLLABORATION</div>
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="차원기 포트폴리오 처음으로 이동">
+          <span class="brand-mark" aria-hidden="true">CK</span>
+          <span class="brand-text"><strong>차원기</strong><small>Service Planner · PM</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="주요 메뉴">
+          <a href="#top">소개</a>
+          <a href="#skills">역량</a>
+          <a href="#career">경력</a>
+          <a href="#projects">프로젝트</a>
+          <a href="#vibe-coding">바이브 코딩</a>
+          <a href="#contact">연락처</a>
+        </nav>
+        <div class="header-tools">
+          <button class="button button-dark button-small" type="button" data-print>PDF 저장</button>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="메뉴 열기">
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="mobile-menu" aria-label="모바일 메뉴">
+        <a href="#top">소개</a>
+        <a href="#skills">역량</a>
+        <a href="#career">경력</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#vibe-coding">바이브 코딩</a>
+        <a href="#contact">연락처</a>
+        <button class="button button-dark" type="button" data-print>PDF 저장</button>
+      </nav>
     </header>
 
-    <main class="shell dashboard-main">
-      <section class="intro-block reveal reveal-1" aria-labelledby="page-title">
-        <p class="eyebrow">SERVICE PLANNER · PROJECT MANAGER</p>
-        <h1 id="page-title">웹사이트 하나가<br /><em>세상과 소통하는 방식</em>은 기획에서 시작됩니다.</h1>
-        <p class="intro-copy">16년간 IT 웹 기획자로서 사용자 중심 설계와 전략적 기획을 통해 다양한 프로젝트를 성공으로 이끌어왔습니다.</p>
-        <div class="intro-meta" aria-label="경력 요약">
-          <span>16 YEARS EXPERIENCE</span>
-          <span class="meta-separator"></span>
-          <span>WEB PLANNING · HRD / LMS · PM</span>
-        </div>
-      </section>
-
-      <section class="impact-grid reveal reveal-5" aria-label="주요 성과">
-        <div><strong>16년</strong><span>서비스기획 · PM 경력</span></div>
-        <div><strong>14개</strong><span>KB금융그룹 계열사 통합</span></div>
-        <div><strong>6만+</strong><span>HRD 플랫폼 이용 규모</span></div>
-        <div><strong>25%</strong><span>구축기간 단축</span></div>
-        <div><strong>2배</strong><span>회원가입률 증가</span></div>
-      </section>
-
-      <section class="vibe-section reveal reveal-5" aria-labelledby="vibe-title">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">SIDE PROJECTS · PROTOTYPES</p>
-            <h2 id="vibe-title">바이브 코딩</h2>
+    <main id="main-content">
+      <section id="top" class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>SERVICE PLANNER · PM</p>
+          <h1 id="hero-title">복잡한 교육 서비스 요구사항을<br /><em>실행 가능한 정책과 화면</em>으로 설계합니다</h1>
+          <p class="hero-lead">교육·HRD 도메인에서 사용자와 운영자의 문제를 구조화하고, 정책·화면·프로세스부터 개발 검수와 오픈까지 연결해왔습니다.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">대표 프로젝트 보기 <span aria-hidden="true">↗</span></a>
+            <button class="button button-outline" type="button" data-print>PDF로 저장 <span aria-hidden="true">↓</span></button>
           </div>
-          <p>아이디어를 빠르게 화면과 서비스로 구현한 결과물입니다.</p>
+          <div id="profile-tags" class="hero-tags" aria-label="프로필 요약"></div>
         </div>
-        <div class="vibe-grid" id="vibe-grid" aria-label="바이브 코딩 결과물">
-          <!-- dashboard.js renders external project cards here -->
+        <div class="hero-visual reveal reveal-delay-1" aria-label="PM이 요구사항을 서비스 구조로 연결하는 흐름을 표현한 그래픽">
+          <div class="hero-visual-top"><span>PORTFOLIO / 2026</span><span>01—04</span></div>
+          <div class="system-map" aria-hidden="true">
+            <span class="map-line line-one"></span><span class="map-line line-two"></span><span class="map-line line-three"></span>
+            <span class="map-node node-hub"><b>PM</b><small>plan · build · improve</small></span>
+            <span class="map-node node-hrd">HRD</span><span class="map-node node-lms">LMS</span><span class="map-node node-api">API</span>
+          </div>
+          <div class="hero-visual-bottom"><span>USER</span><span>POLICY</span><span>TEAM</span></div>
         </div>
       </section>
 
-      <section class="banner-grid" id="banner-grid" aria-label="포트폴리오 섹션">
-        <!-- dashboard.js renders data-driven navigation cards here -->
+      <section id="impact" class="impact-band" aria-labelledby="impact-title">
+        <div class="section-shell">
+          <div class="impact-heading"><p class="eyebrow eyebrow-light">SELECTED IMPACT</p><h2 id="impact-title">경험을 숫자와 구조로 설명합니다</h2></div>
+          <div id="achievement-list" class="achievement-grid"></div>
+        </div>
       </section>
 
-      <div class="scroll-hint reveal reveal-5"><span class="scroll-line"></span><span>SCROLL TO EXPLORE</span></div>
+      <section id="skills" class="section section-shell" aria-labelledby="skills-title">
+        <div class="section-heading reveal"><p class="eyebrow">01 / CAPABILITY</p><h2 id="skills-title">문제를 구조화하고<br /><span>팀이 움직일 수 있게 만듭니다</span></h2><p>반복되는 요구사항을 정책으로 정리하고, 실제 서비스에 반영될 때까지 판단 근거와 실행 흐름을 관리합니다.</p></div>
+        <div class="capability-layout">
+          <div id="capability-list" class="capability-list"></div>
+          <aside class="tool-stack reveal reveal-delay-2" aria-labelledby="toolkit-title">
+            <p id="toolkit-title" class="mini-label">WORKING TOOLKIT</p>
+            <div id="tool-list"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="career" class="section career-section" aria-labelledby="career-title">
+        <div class="section-shell">
+          <div class="section-heading split-heading reveal">
+            <div><p class="eyebrow">02 / CAREER</p><h2 id="career-title">교육 서비스 현장에서<br /><span>기획과 실행을 함께 쌓았습니다</span></h2></div>
+            <p>최근 경력부터 노출하고, 각 회사에서 맡은 대표 업무는 펼쳐보기로 확인할 수 있습니다.</p>
+          </div>
+          <div id="career-list" class="career-timeline"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-shell projects-section" aria-labelledby="projects-title">
+        <div class="section-heading split-heading reveal">
+          <div><p class="eyebrow">03 / SELECTED PROJECTS</p><h2 id="projects-title">복잡한 요구사항을<br /><span>서비스 성과로 바꾼 사례</span></h2></div>
+          <p>프로젝트를 열면 배경, 문제, 판단, 설계, 검증, 결과를 같은 흐름으로 확인할 수 있습니다.</p>
+        </div>
+        <div id="project-filters" class="project-filters reveal" role="group" aria-label="프로젝트 유형 필터"></div>
+        <div id="project-list" class="project-list" aria-live="polite" tabindex="-1"></div>
+      </section>
+
+      <section id="vibe-coding" class="section vibe-section" aria-labelledby="vibe-coding-title">
+        <div class="section-shell">
+          <div class="section-heading split-heading reveal">
+            <div><p class="eyebrow">04 / VIBE CODING</p><h2 id="vibe-coding-title">바이브 코딩으로<br /><span>빠르게 만든 결과물</span></h2></div>
+            <p>아이디어를 빠르게 프로토타입으로 만들고, 실제로 실행해볼 수 있는 서비스로 연결했습니다.</p>
+          </div>
+          <div id="vibe-coding-list" class="vibe-banner-grid" aria-label="바이브 코딩 결과물"></div>
+        </div>
+      </section>
+
+      <section class="method-section" aria-labelledby="method-title">
+        <div class="section-shell method-inner">
+          <div class="method-intro reveal"><p class="eyebrow eyebrow-light">HOW I WORK</p><h2 id="method-title">문제에서 성과까지<br />흐름을 끊지 않습니다</h2><p>요구사항을 받는 순간부터 오픈 후 개선까지, 각 단계의 판단 근거가 다음 단계의 실행으로 이어지도록 관리합니다.</p></div>
+          <div class="method-flow reveal reveal-delay-1" aria-label="문제, 판단, 설계, 검증, 성과의 업무 흐름">
+            <div class="method-step"><span>01</span><strong>문제</strong><small>요구사항과 제약 확인</small></div><i aria-hidden="true">→</i>
+            <div class="method-step"><span>02</span><strong>판단</strong><small>원인과 우선순위 정의</small></div><i aria-hidden="true">→</i>
+            <div class="method-step"><span>03</span><strong>설계</strong><small>정책·화면·프로세스</small></div><i aria-hidden="true">→</i>
+            <div class="method-step"><span>04</span><strong>검증</strong><small>개발 협업·QA·오픈</small></div><i aria-hidden="true">→</i>
+            <div class="method-step is-result"><span>05</span><strong>성과</strong><small>사용자와 조직의 변화</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-shell" aria-labelledby="contact-title">
+        <div class="contact-card reveal">
+          <div><p class="eyebrow">05 / CONTACT</p><h2 id="contact-title">함께 풀어야 할 서비스 문제가<br /><em>있다면 이야기해 주세요</em></h2><p>교육 플랫폼, HRD/LMS, 운영 효율화, 신규 서비스 구축에 대한 협업을 기다립니다.</p></div>
+          <div class="contact-actions"><a class="button button-primary" data-email-link href="mailto:joynet82@hanmail.net">이메일 보내기 <span aria-hidden="true">↗</span></a><button class="copy-email" type="button" data-copy-email>joynet82@hanmail.net <span>주소 복사</span></button></div>
+        </div>
+      </section>
     </main>
 
-    <footer class="site-footer shell reveal reveal-5">
-      <span>© 2026 CHA WON KI</span>
-      <span>SELECT A CARD TO CONTINUE <span aria-hidden="true">↗</span></span>
-    </footer>
+    <footer class="site-footer"><div class="section-shell footer-inner"><span>© 2026 차원기 · Service Planner · PM</span><span>콘텐츠 기준 2026.08.22</span><a href="#top">맨 위로 ↑</a></div></footer>
 
-    <script src="js/dashboard.js" defer></script>
+    <div class="modal" data-project-modal aria-hidden="true" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="프로젝트 상세 닫기" data-modal-close>×</button>
+        <div id="modal-content"></div>
+      </section>
+    </div>
+
+    <div class="lightbox" data-lightbox aria-hidden="true" hidden>
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <figure class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button class="modal-close" type="button" aria-label="이미지 닫기" data-lightbox-close>×</button>
+        <img data-lightbox-image alt="" />
+        <figcaption><strong data-lightbox-title id="lightbox-title"></strong><span data-lightbox-description></span></figcaption>
+      </figure>
+    </div>
+
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+    <noscript><div class="noscript-note">이 포트폴리오는 JavaScript를 사용해 프로젝트 상세 내용을 표시합니다. 브라우저에서 JavaScript를 활성화해 주세요.</div></noscript>
+    <script src="js/portfolio-data.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
